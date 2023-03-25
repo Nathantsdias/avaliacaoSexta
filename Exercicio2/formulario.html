@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Preencha seu Formulário</h1>
+	<form action="#" method="POST">
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome" required>
+
+		<label for="email">E-mail:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="telefone">Telefone:</label>
+		<input type="tel" id="telefone" name="telefone">
+
+		<label for="idade">Idade:</label>
+		<input type="number" id="idade" name="idade" min="18" max="120">
+
+		<label for="escolaridade">Escolaridade:</label>
+		<select id="escolaridade" name="escolaridade">
+            <option value="ensino-medio">Fundamental Incompleto</option>
+            <option value="ensino-medio">Fundamental completo</option>
+			<option value="ensino-medio">Ensino Médio</option>
+			<option value="graduacao">Graduação</option>
+			<option value="pos-graduacao">Pós-Graduação</option>
+		</select>
+
+		<label for="nome-pai">Nome do Pai:</label>
+		<input type="text" id="nome-pai" name="nome-pai">
+
+		<label for="nome-mae">Nome da Mãe:</label>
+		<input type="text" id="nome-mae" name="nome-mae">
+
+
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
